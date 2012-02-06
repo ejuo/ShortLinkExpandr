@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://shortlinkexpander/skin/skin.css" type="text/css"?> 
+<!DOCTYPE shortlinkexpander SYSTEM "chrome://shortlinkexpander/locale/translations.dtd">
+<overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		<script src="ShortLinkExpander.js" />
+		<statusbar id="status-bar">
+			<statusbarpanel id="short-link-expander-status-bar-icon" class="statusbarpanel-iconic" src="chrome://shortlinkexpander/skin/status-bar.png" tooltiptext="&runshortlinkexpander;" onclick="shortLinkExpander.run()" />
+		</statusbar>
+</overlay>

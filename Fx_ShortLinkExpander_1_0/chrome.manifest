@@ -1,0 +1,8 @@
+content     shortlinkexpander    chrome/content/
+content     shortlinkexpander    chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://shortlinkexpander/content/browser.xul
+
+locale	shortlinkexpander	en-US	locale/en-US/
+
+skin	shortlinkexpander	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://shortlinkexpander/skin/skin.css

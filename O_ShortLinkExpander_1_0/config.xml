@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="shortlinkexpander">
+	<name>Short Link Expander</name>
+	<description>Short Link Expander.</description>
+	<author href="http://ejuo.ru/">Ilya Tychinin</author>
+	<icon src="icon.png" width="64" height="64"/>
+	<icon src="icon_18.png" width="18" height="18" />
+	<access origin="*"/>
+</widget>
