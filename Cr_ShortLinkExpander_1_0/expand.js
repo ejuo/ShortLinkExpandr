@@ -72,7 +72,7 @@ function collectionToArray(collection)
       } else {
         expansion_request = expansion_queue.splice(0, 3);
       }
-		chrome.extension.sendRequest({expand: expansion_request}, function(response) {
+		chrome.extension.sendMessage({expand: expansion_request}, function(response) {
 			var i, j,
 			longs = response.longs,
 			indices;

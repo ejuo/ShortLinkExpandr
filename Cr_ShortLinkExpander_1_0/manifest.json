@@ -1,8 +1,12 @@
 {
   "name": "Short Link Expander",
   "version": "1.0",
+  "manifest_version": 2,
   "description": "Short Link Expander",
   "permissions": ["http://4.expndr.appspot.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
@@ -11,7 +15,6 @@
       "all_frames": true
     }
   ],
-  "background_page": "background.html",
   "icons": {
     "16": "icon16.png",
     "32": "icon32.png",

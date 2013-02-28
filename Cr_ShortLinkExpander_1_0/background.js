@@ -1,5 +1,3 @@
-<html>
-  <script>
   var lib = {   
     expand: function(links) {
       var long_link, i, short_link,
@@ -55,10 +53,8 @@
     },
   };
   
-  chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
+  chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
     if (request.expand) {
       sendResponse({longs: lib.expand(request.expand)});
     }
   });
-  </script>
-</html>
